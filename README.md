@@ -1,16 +1,7 @@
 # Task 1
 
-### Note:
-Function addPoints is not verifying `_student` parameter.
-
-### Problem:
-In the map points can contain people that are not members of the
-course.
-
-### Task:
-Add validation.
-
-Dopisać sprawdzanie czy student jest w liście przy addPoints.
+Add validation at `addPoints` function for `_student` parameter.
+It must not contain people that are not members of the course.
 
 # Task 2
 
