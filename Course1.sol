@@ -19,6 +19,7 @@ contract Course {
         _;
     }
     
+    // containsStudent allows to check if given student exists in our Course.
     function containsStudent(address _student) private view returns (bool) {
         for (uint i=0; i < students.length; i++) {
             if (students[i] == _student) {
@@ -28,6 +29,7 @@ contract Course {
         return false;
     }
     
+    // addPoints should also validate if Student exists in given Course.
     function addPoints(address _student, uint32 _points) public onlyTeacher {
         if (!containsStudent(_student)) {
             return;
