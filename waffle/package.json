@@ -5,11 +5,12 @@
   "license": "MIT",
   "dependencies": {
     "ethereum-waffle": "^2.0.7",
-    "openzeppelin-solidity": "^2.2.0"
+    "openzeppelin-solidity": "^2.2.0",
+    "waffle": "^0.0.4"
   },
   "devDependencies": {
-    "mocha": "^6.0.2",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
   },
   "scripts": {
     "test": "waffle && mocha"
