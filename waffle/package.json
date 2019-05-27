@@ -1,0 +1,17 @@
+{
+  "name": "waffle2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethereum-waffle": "^2.0.7",
+    "openzeppelin-solidity": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "test": "waffle && mocha"
+  }
+}
